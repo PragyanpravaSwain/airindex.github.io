@@ -1,0 +1,123 @@
+.body-container {
+  background: #bbb2c1;
+  padding: 32px 0;
+}
+
+.card {
+  height: auto;
+  width: 60%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 16px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+}
+
+.card-heading {
+  display: flex;
+  align-items: center;
+}
+
+.card-inner {
+  display: flex;
+  margin-top: 16px;
+}
+
+.card-inner-circularProgressbar {
+  width: 17%;
+}
+
+.card-inner-text {
+  margin-left: 32px;
+  width: 50%;
+}
+
+.card-inner-text-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.card-inner-text-description {
+  width: 70%;
+  color: #6f7585;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.card-inner-text-right {
+  padding: 0 22px;
+  border-left: 1px solid #ccc;
+}
+
+.card-inner-text-right-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.125em;
+}
+
+.card-inner-text-right-description {
+  font-weight: 400;
+  font-size: 15px;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.all-pollutant-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.all-pollutant-container-each {
+  display: flex;
+  width: 50%;
+  border-bottom: 1px solid #ccc;
+  margin: 8px;
+}
+
+.all-pollutant-container-circularProgressbar {
+  width: 16%;
+}
+
+.all-pollutant-container-text {
+  margin-left: 12px;
+  margin-bottom: 10px;
+  height: 80px;
+}
+
+.all-pollutant-container-text-head {
+  font-size: 1rem;
+  line-height: 1.375em;
+  height: auto;
+}
+
+.all-pollutant-container-text-status {
+  color: #6f7585;
+  font-size: 0.8125rem;
+  line-height: 1.23em;
+  font-weight: 600;
+}
+
+.all-pollutant-container-text-footer {
+  font-size: 0.8125rem;
+  color: #6f7585;
+}
+
+.pollution-img {
+  height: 116px;
+  width: 200px;
+  margin-top: 14px;
+}
+
+.pollution-text {
+  height: 64px;
+  width: 202px;
+  margin-top: 8px;
+  color: #6f7585;
+  font-size: 14px;
+}
+
+.pollution-text:hover {
+  color: #1b4de4;
+}

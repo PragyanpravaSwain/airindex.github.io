@@ -1,0 +1,142 @@
+.topBar-container {
+  background-color: #59516e;
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 93%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.container-first {
+  display: flex;
+  align-items: center;
+}
+
+.container-second {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  color: #ffffff;
+  padding-right: 6px;
+}
+
+.business {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.times-of {
+  background: #ba0d00;
+  margin: 0 12px;
+  font-size: 14px;
+}
+
+.search {
+  padding: 0 180px;
+}
+
+.search-bar {
+  background: hsl(252deg 30% 95% / 34%);
+  border-radius: 2rem;
+  padding: 0.6rem 1rem;
+  display: flex;
+}
+
+.search-bar input[type="search"] {
+  background: transparent;
+  width: 24vw;
+  font-size: 0.9rem;
+  color: hsl(252, 30%, 17%);
+  border: none;
+  text-align: center;
+}
+
+.map {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input[type="search"]::placeholder {
+  color: #ffffff;
+}
+
+.menu-icon {
+  color: #ffffff;
+  position: relative;
+}
+
+.menu-icon-trigger {
+  background: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.header-menu {
+  background: #ffffff;
+  color: #000000;
+  position: absolute;
+  top: 38px;
+  right: 0;
+  height: auto;
+  width: 1349px;
+  margin-right: -58px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+}
+
+.header-menu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.menu-container-head {
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+.menu-container-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.menu-container-button {
+  border: none;
+  background: transparent;
+  width: 160px;
+  text-align: start;
+  color: #6a6161;
+  font-size: 16px;
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+.menu-container-button:hover {
+  color: blue;
+}
+
+.menu-container-first-body {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 21px 0;
+}
+
+.menu-container-second-body {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 21px 0;
+}

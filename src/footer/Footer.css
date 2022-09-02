@@ -1,0 +1,119 @@
+.footer-container {
+  padding: 30px;
+  margin: 0 auto;
+  width: 85%;
+}
+
+.footer-container-head {
+  display: flex;
+  align-items: center;
+}
+
+.footer-container-head-text {
+  font-size: 1.125rem;
+  font-weight: 700;
+  align-self: center;
+  margin-right: 5px;
+}
+
+.brand-icon {
+  background: #cfdaf9;
+  height: 45px;
+  width: 45px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.brand-icon:hover {
+  background: #1b4de4;
+  color: #ffffff;
+}
+
+.feedback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 35px 0 10px 0;
+}
+
+.feedback-text {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.feedback a {
+  font-size: 13px;
+  color: #2b2b2b;
+}
+
+.feedback a:hover {
+  color: #446de9;
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.terms-text {
+  color: rgb(43, 43, 43);
+  font-weight: 700;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+
+.terms-text-divider {
+  color: rgb(43, 43, 43);
+  font-size: 28px;
+}
+
+.terms-text:hover {
+  color: #446de9;
+}
+
+.footer-recognise {
+  text-align: center;
+  font-size: 14px;
+  color: #2b2b2b;
+  margin-top: 18px;
+}
+
+.data-rights {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.data-rights-text {
+  color: rgb(43, 43, 43);
+  font-weight: 700;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+
+.data-rights-text:hover {
+  color: #446de9;
+}
+
+.power {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+.power-text {
+  font-size: 14px;
+  color: #2b2b2b;
+  cursor: pointer;
+}
+
+.power-logo {
+  margin-left: 12px;
+  cursor: pointer;
+}
